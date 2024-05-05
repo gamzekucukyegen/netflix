@@ -1,1 +1,1 @@
-# netflix-training
+https://gamzekucukyegen.github.io/netflix/
