@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <header>
+          <h1>NET<span>FLIX</span></h1>
+          <p>
+            Thank you for signing up at Netflix. Tell us more about yourself.
+          </p>
+        </header>
+        <div class="form-container">
+          <form action="#">
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+            /><br />
+            <label for="age">Age</label><br />
+            <input type="number" id="age" placeholder="Age" required /><br />
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="example@netflix.com"
+              required
+            /><br />
+            <label for="content">Content Type</label><br />
+            <select name="content" id="content">
+              <option value="Movie">Movie</option>
+              <option value="Series">Series</option></select
+            ><br />
+
+            <label for="checkbox">Movie Type</label><br />
+            <div class="check-wrap">
+              <input type="checkbox" id="comedy" />
+              <label for="comedy" class="check-label">Comedy</label><br />
+              <input type="checkbox" id="action" />
+              <label for="action" class="check-label">Action</label><br />
+              <input type="checkbox" id="romance" />
+              <label for="romance" class="check-label">Romance</label><br />
+            </div>
+              <label for="checkbox2">Gender</label><br />
+              <div class="check-wrap">
+              <input type="checkbox" id="male" />
+              <label for="male" class="check-label">Male</label><br />
+              <input type="checkbox" id="female" />
+              <label for="female" class="check-label">Female</label><br />
+              <input type="checkbox" id="other" />
+              <label for="other" class="check-label">Other</label><br />
+            </div>
+            <label for="feedback">Feedback</label><br />
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="30"
+              rows="10"
+              placeholder="Enter Your Comment"
+            ></textarea
+            ><br />
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
